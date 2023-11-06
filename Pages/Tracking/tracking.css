@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2f2f2;
+    color: #FD6B05;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header div {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-height: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tracking-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2779b8;
+}
+
+#tracking-results {
+    text-align: center;
+    display: none;
+}
+
+#tracking-results p {
+    font-size: 18px;
+}
+
+#tracking-number-display {
+    font-weight: bold;
+    color: #333;
+}
+
+
+#previous-locations li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.location-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-date {
+    font-weight: bold;
+}
+
+.location-description {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.separator {
+    border-top: 1px solid #FD6B05;
+    margin: 20px 0;
+}
+
+/* Estilos para el enlace */
+div ul li a {
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: #3498db; /* Cambia el color del texto a azul (#3498db) */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    padding: 5px 10px; /* Espaciado interno alrededor del enlace */
+    border: 1px solid #3498db; /* Añade un borde alrededor del enlace */
+    border-radius: 5px; /* Redondea las esquinas del enlace */
+    background-color: #fff; /* Fondo blanco */
+}
+
+/* Estilos para el enlace cuando se pasa el mouse sobre él */
+div ul li a:hover {
+    background-color: #3498db; /* Cambia el fondo a azul (#3498db) cuando se pasa el mouse */
+    color: #fff; /* Cambia el color del texto a blanco cuando se pasa el mouse */
+}

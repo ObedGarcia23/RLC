@@ -1,0 +1,164 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #999494;
+    color: #333;
+    margin: 0;
+    padding: 0 ;
+}
+
+
+.navegacion {
+    background-color: #fefefe; /* Fondo de la barra de navegación */
+    color: rgb(0, 0, 0); /* Color del texto en la barra de navegación */
+    padding: 5px 0;
+    display: flex;
+    border-width: 0.5px;
+    border-style: solid;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo img {
+    max-height: 100px;
+    margin-left: 5px;
+    
+}
+.carousel-inner{
+    width:100%;
+    max-height:100%;
+}
+
+.navbar {
+    display: flex;
+   
+    align-items: center;
+    padding: 0 20px;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+
+.menu-icon {
+    display: none; /* Ocultar el icono del menú en pantallas grandes */
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-list li {
+    margin: 0 15px;
+}
+
+.menu-list li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-list li a:hover {
+    border-bottom: 2px solid white; /* Efecto al pasar el mouse sobre los enlaces */
+    cursor: pointer;
+    color: #FD6B05;
+}
+
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+#chart-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+.banner_principal {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+    
+}
+
+.carousel{
+    height: 380px;
+    width: 100%;
+ 
+}
+
+
+.services {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    flex-direction: column;
+   
+
+}
+
+.service {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9; /* Color de fondo de cada servicio */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.service i {
+    font-size: 48px; /* Tamaño del ícono */
+    color: #333; /* Color del ícono */
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333; /* Color del título del servicio */
+}
+
+.service p {
+    font-size: 16px;
+    color: #777; /* Color del texto del servicio */
+}
+
+.separator {
+    border-top: 1px solid #FD6B05;
+    margin: 20px 0;
+}
+
+
+.mapa {
+
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.mapa > iframe {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+
+@media screen and (min-width: 400px) {
+    
+}

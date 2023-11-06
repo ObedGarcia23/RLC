@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tracking.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Seguimiento de Paquete</title>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <div class="header">
+                <div>
+                    <img src="../src/Images/rlc f_edited.webp" alt="" height="100%">
+                </div>
+                <div>
+                    <h1>Seguimiento de Paquete</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="tracking-form">
+                <label for="tracking-number">Número de Seguimiento:</label>
+                <input type="text" id="tracking-number" placeholder="Ingrese el número de seguimiento">
+                <button id="track-button">Seguir</button>
+            </div>
+            <div id="tracking-results">
+                <p>Estado del paquete con número de seguimiento: <span id="tracking-number-display"></span></p>
+                <p>En tránsito</p>
+                <p>Última ubicación: Ciudad XYZ</p>
+                <h2>Ubicaciones Anteriores:</h2>
+                <ul id="previous-locations"></ul>
+            </div>
+        </main>
+    </div>
+   
+    <script src="../Scripts/tracking.js"></script>
+</body>
+</html>
